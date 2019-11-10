@@ -1,18 +1,15 @@
 import React from 'react';
 
-import { Container, CardInfo } from './styles';
+import { Card } from 'react-bootstrap';
 
-export default function Card(){
+//import { Container, CardInfo } from './styles';
+
+export default function Caard(){
     return (
       <>
-        <Container>
-          <img src="../../images/a.png" alt="j" />
-          <CardInfo>
-            icono
-            <h1>Gasto</h1>
-            <h2>Gs.0</h2>
-          </CardInfo>
-        </Container>
+        <Card>
+          <Card.Body>This is some text within a card body.</Card.Body>
+        </Card>
       </>
     );
 }
