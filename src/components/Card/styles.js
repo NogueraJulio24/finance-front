@@ -1,22 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  margin-left: 20px;
-  width: calc(100% - 40px);
-  height: 70px;
 
-  flex-direction: column;
-  align-items: flex-end;
-  
-  border: 1px solid;
-  border-color: #fff;
   border-radius: 15px;
+  border: 1px solid!;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
 
-  justify-content: center;
-  padding: 0px;
-  padding-left: 16px;
-  padding-right: 40px;
-  
+`;
 
+export const CardInfo = styled.div`
+  color: red;
+  text-align: start;
 `;

@@ -1,14 +1,17 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, CardInfo } from './styles';
 
-export default function Header(){
+export default function Card(){
     return (
       <>
         <Container>
-          icono
-          <h1>Gasto</h1>
-          <h2>Gs. 0</h2>
+          <img src="../../images/a.png" alt="j" />
+          <CardInfo>
+            icono
+            <h1>Gasto</h1>
+            <h2>Gs.0</h2>
+          </CardInfo>
         </Container>
       </>
     );
